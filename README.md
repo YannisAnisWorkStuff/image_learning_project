@@ -1,5 +1,13 @@
 # EuroSAT Land Use Classification — Deep Learning Project
 
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![torchvision](https://img.shields.io/badge/torchvision-EE4C2C?style=flat)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=flat)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-Notebook-F9AB00?style=flat&logo=googlecolab&logoColor=white)
+
 **Team 23** · Data & AI 5 — Machine Learning Project  
 *Yiannis Ftiti · Ervin Lepic · Maria Miron Gavril*
 
@@ -161,4 +169,5 @@ To address poor performance on HerbaceousVegetation (the worst-performing class)
 - **Progressive unfreezing** — gradually unfreeze deeper layers during training
 - **Class-weighted loss** — penalize confusion between visually similar vegetation classes
 - **Satellite-specific augmentations** — random rotation, multiscale cropping, atmospheric simulation
+
 - **Better GAN training** — more epochs, FID-based quality filtering of synthetic images
